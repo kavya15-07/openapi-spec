@@ -1,4 +1,4 @@
-module openapi-bundler
+module github.com/kavya15-07/openapi-bundler-
 
 go 1.24.5
 
