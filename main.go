@@ -142,7 +142,7 @@ func bundleOpenAPIFiles(tagsFolder, componentsFile, outputFile string) error {
 }
 
 func main() {
-	outputFileArg := flag.String("output", "collabsvc.yaml", "Path to the output bundled OpenAPI file")
+	outputFileArg := flag.String("output", "collabsvc_bundled.yaml", "Path to the output bundled OpenAPI file")
 	flag.Parse()
 
 	baseDir, err := os.Getwd()
